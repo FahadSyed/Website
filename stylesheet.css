@@ -1,45 +1,60 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
 body{
-   background-image: url('skulls.png');
-   
-}
-.container{
-max-width:960px;
-width:960px;
-border-radius:1%;
-height:1000px;
- margin: 0 auto;
- background-image: url('skulls.png');
-}
+background-image:url('brushed.png');
 
-.header{
-max-width: 960px;
-width:960px;
-height:120px;
 }
-.icons{
-
-margin-top:63px;
-position:absolute;
-
-width:220px;
-margin-right:150px;
-right:0;
-height:50px;
-}
-.facebookIcon, .twitterIcon,.githubIcon,.linkedinIcon, .nameLogo, #message, #work, #companyLink{
+div{
 transition:All 1s ease;
 -webkit-transition:All 1s ease;
 -moz-transition:All 1s ease;
 -o-transition:All 1s ease;
 }
+/*-------------------------------HEADER CSS-----------------------------------*/
+.header{
+position:absolute;
+top: 0; left: 0; height: 100%; width: 100%;
+border-radius:2px;
+background-image:url('background7.jpg');
+background-attachment:fixed;
+height:180px;
+}
+
+.icons{
+margin-top:63px;
+position:absolute;
+width:210px;
+margin-right:200px;
+right:0;
+height:50px;
+}
+
+.facebookIcon, .twitterIcon,.githubIcon,.linkedinIcon, .nameLogo, #message, #work, #companyLink, .icons, .temporaProject{
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+}
+
 #companyLogo:hover{
 transform: rotate(45deg) scale(3) skew(1deg) translate(0px);
 -webkit-transform: rotate(45deg) scale(3) skew(0deg) translate(4px);
 -moz-transform: rotate(45deg) scale(3) skew(0deg) translate(4px);
 -o-transform: rotate(45deg) scale(3) skew(0deg) translate(4px);
 -ms-transform: rotate(45deg) scale(3) skew(0deg) translate(4px);
-
 }
+
 .facebookIcon{
 position:absolute;
 background-size: contain;
@@ -49,6 +64,7 @@ background-position: center 0;
 width:50px;
 height:50px;
 }
+
 .facebookIcon:hover,.twitterIcon:hover,.githubIcon:hover,.linkedinIcon:hover, .nameLogo:hover{
 transform: rotate(4deg) scale(1) skew(1deg) translate(0px);
 -webkit-transform: rotate(4deg) scale(1) skew(0deg) translate(4px);
@@ -95,26 +111,24 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center 0;
 margin-top:50px;
-margin-left:0px;
+margin-left:15%;
 width:150px;
 height:70px;
 }
 
 #message{
-max-width:960px;
+max-width:1050px;
 position:absolute;
-color: #181818;
 font-family: "Comic Sans MS" ,"Times New Roman", Helvetica, Arial, sans-serif;
 font-weight: normal;
 margin-top:75px;
-margin-left:160px;
+margin-left:28%;
 }
 #work{
 position:absolute;
 margin-top:100px;
-margin-left:160px;
-font-family:"Comic Sans MS"
-
+margin-left:28%;
+font-family:"Comic Sans MS";
 }
 #oldProgram{
 font-weight:900;
@@ -130,29 +144,175 @@ background-size: contain;
 background-image: url('vitalhubLogo1.png');
 background-repeat: no-repeat;
 background-position: center 0;
+}
+/*----------------------------HEADER CSS END---------------------------------*/
+/*----------------------------ABOUT ME CSS---------------------------------*/
+.sectionOne{
+width:100%;
+padding:0;
+margin:0;
+background-image: url('skulls.png'); 
+background-attachment:fixed;
+height:320px;
+}
+.containerOne{
+max-width:70%;
+width:70%;
+border-radius:1%;
+margin-left:auto;
+margin-right:auto; 
+margin-top:180px;
+height:320px;
+}
+.sectionTwo{
+width:100%;
+padding:0;
+top:0;
+background-image: url('mooning.png'); 
+height:320px;
+}
+.containerTwo{
+max-width:70%;
+width:70%;
+border-radius:1%;
+margin-left:auto;
+margin-right:auto; 
+height:320px;
+}
+.aboutSection{
+position:relative;
+max-width: 100%;
+margin-right:0;
+width:100%;
+margin-top:10px;
+border-radius:20px;
+height:320px;
+}
+.aboutTitle{
+position:absolute;
+width:200px;
+height:70px;
+background-image: url('about_title.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center 0;
+}
+#personalPhoto{
+background-size: cover;
+background-image: url('profilePicture.jpg');
+background-repeat: no-repeat;
+position:absolute;
+margin-top:10px;
+background-color:black;
+border:2px solid black;
+background-position: center 0;
+border-radius:13px;
+
+width:300px;
+height:300px;
+background-color:black;
+right:0;
+}
+
+#description{
+width:300px;
+max-width:70%;
+position:absolute;
+font-family:"Trebuchet MS";
+margin-top:100px;
+}
+/*----------------------------ABOUT ME END---------------------------------*/
+/*----------------------------Work Experience start------------------------*/
+.workExperience{
+position:relative;
+max-width: 100%;
+margin-top:50px;
+width:100%;
+background-color:
+border-radius:20px;
+height:320px;
+}
+.workTitle{
+position:absolute;
+margin-left:auto;
+font-family:"Lucida Sans Unicode";
+margin-right:auto;
 
 }
+
+/*----------------------------PROJECT ONE START----------------------------*/
+.projectOne{
+position:relative;
+max-width: 100%;
+margin-top:50px;
+width:100%;
+border-radius:20px;
+height:320px;
+}
+.project1Title{
+position:absolute;
+width:260px;
+height:90px;
+background-image: url('project1_title.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center 0;
+
+
+}
+
 @media screen and (max-width: 830px)
 {
     .icons{
+    position:absolute;
     margin-top:35px;
     margin: 0 auto;
     }
     #work{
+    position:absolute;
     margin-top:130px;
     margin-left:10px;
     }
+    .nameLogo{
+    margin-left:0px;
+    }*
+    /*
+    .aboutSection{
+    }
+    .aboutTitle{
+    margin-left:20%;
+    }
+    #personalPhoto{
+    }
+    /
 }
 @media screen and (max-width: 1060px) {
     .container { 
-    width:960px;
+    width:80%;
     }
 }
 @media screen and (max-width: 500px) {
      #work{
     position:absolute;
-    margin-top:185px;
+    margin-top:190px;
     }
+    .aboutSection{
+    }
+    .aboutTitle{
+    margin-left:70px;
+    margin-top:30px;
+    }
+    #personalPhoto{
+    position:absolute;
+    left:0;
+    top:90%;
+    background-color:white;
+    }
+    #description{
+    text-align:center;
+    }
+    
+
 }
 /* Tabled Portrait */
 
