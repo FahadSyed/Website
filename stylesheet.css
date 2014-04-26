@@ -112,7 +112,7 @@ background-repeat: no-repeat;
 background-position: center 0;*/
 font-family: "Lucida Sans Unicode";
 font-size:2.5em;
-margin-top:10px;
+margin-top:15px;
 color:#3ac5ff;
 margin-left:12%;
 width:150px;
@@ -148,7 +148,7 @@ padding:0;
 
 margin:0;
 margin-top:-33px;
-background-color:#4099FF;
+background-color:#4baad3;
 height:400px;
 }
 .containerOne{
@@ -175,16 +175,15 @@ height:420px;
 .sectionThree{
 position:relative;
 width:100%;
-border-top:2px solid #4099FF;
 border-bottom:2px solid black;
-background-color:#4099FF;
 padding:0;
 top:0;
 height:950px;
 }
 .containerThree{
 width:70%;
-border-radius:1%;
+border-top:1px solid #4099FF;
+
 margin-left:auto;
 margin-right:auto;
 height:320px;
@@ -208,14 +207,14 @@ height:400px;
 display:inline-block;
 }
 .aboutTitle{
-position:absolute;
+position:relative;
+text-align:center;
 max-width: 100%;
-
-font-family:"Helvetica";
+margin-left:auto;
+margin-right:auto;
+font-family:"Open Sans L";
 font-weight: 600;
-margin-top:20px;
-
-font-size:2.8em;
+font-size:2.5em;
 margin-top:150px;
 color:white;
 height:320px;
@@ -240,8 +239,8 @@ a {text-decoration:none;}
 width:120px;
 position:relative;
 height:40px;
-margin-top:210px;
 margin-left:auto;
+margin-top:-200px;
 margin-right:auto;
 text-align:center;
 vertical-align:center;
@@ -269,7 +268,7 @@ margin-right:auto;
 left:0;
 font-family:"Lucida Sans Unicode";
 margin-top:100px;
-    text-align:center;
+text-align:center;
 
 }
 /*----------------------------ABOUT ME END---------------------------------*/
@@ -287,42 +286,36 @@ color:#3ac5ff;
 height:320px;
 }*/
 #workTitle{
-position:absolute;
-left:43%;
-font-family:"Helvetica";
-font-size:3em;
-color:#3ac5ff;
+position:relative;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+font-family:"Open Sans";
+font-size: 42px;
 }
 #androidDeveloper{
-position:absolute;
+position:relative;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
 margin-left:10px;
-font-family:"Helvetica";
+font-family:"Open Sans Bold";
 font-size:2em;
-margin-top:90px;
+margin-top:30px;
 color:#3ac5ff;
 }
-
-.companyLogo{
-width:151px;
-height:50px;
-position:absolute;
-right:0;
-margin-top:90px;
-border:2px solid yellow;
-border-radius:10px;
-
-background-size: contain;
-padding:3px;
-background-image: url('vitalhubLogo1.png');
-background-repeat: no-repeat;
-background-position: center 0;
-}
-.companyLogo:hover{
-border:3px solid white;
-width:160px;
-height:60px;
+.vitalhubDetails{
+margin-top:10px;
+font-family:"Open Sans";
+font-size: 17px;
+line-height: 1.6;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
 
 }
+
+
 
 /*----------------------------PROJECT ONE START----------------------------*/
 .projectOne{
@@ -334,21 +327,27 @@ height:320px;
 
 }
 #projectsTitle{
-position:absolute;
-left:43%;
-font-family:"Helvetica";
+position:relative;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+font-family:"Open Sans Bold";
 font-size:3em;
-color:white;
+color:black;
 }
 #project1Title{
-position:absolute;
-font-family:"Helvetica";
+position:relative;
+font-family:"Open Sans L";
+text-align:center;
+margin-left:auto;
+margin-right:auto;
 font-size:3em;
-margin-top:80px;
-color:white;
+margin-top:40px;
+color:black;
 
 }
 .githubLinkP1{
+display:none;
 position:absolute;
 width:80px;
 height:80px;
@@ -366,27 +365,49 @@ right:0;
 #project1Description{
 position:relative;
 position:absolute;
-margin-top:190px;
-font-size:20px;
-font-family:"Lucida Sans Unicode";
+margin-top:10px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+font-size: 17px;
+line-height: 1.6;
+font-family:"Open Sans L";
 color:#2f2222;
 }
 .projectOnePhotos{
-
-position:absolute;
+position:relative;
 width:100%;
-height:860px;
-margin-top:320px;
+height:363px;
+margin-top:130px;
 margin-left:auto;
 margin-right:auto;
+list-style-type:inline;
+}
+#project1photo1container{
+position:absolute;
+left:0;
+width:26.67%;
+height:363px;
+background-color:red;
+}
+#project1photo2container{
+position:absolute;
+margin-left:38%;
+width:26.67%;
+height:363px;
+background-color:red;
+}
+#project1photo3container{
+position:absolute;
+right:0;
+width:26.67%;
+height:363px;
+background-color:red;
 }
 #project1photo1{
 position:absolute;
-width:24%;
-height:363px;
-left:0;
-border:2px solid white;
-border-radius:3px;
+width:100%;
+height:100%;
 /*background-image: url('project1photo1.png');
 background-size: contain;
 background-repeat: no-repeat;
@@ -395,21 +416,16 @@ background-color:black;
 }
 #project1photo2{
 position:absolute;
-width:24%;
-height:363px;
-border:2px solid white;
-border-radius:3px;
+width:100%;
+height:100%;
 background-color:black;
-margin-left:25%;
 }
 #project1photo3{
+right:0;
 position:absolute;
-width:24%;
-height:363px;
-border:2px solid white;
-border-radius:3px;
+width:100%;
+height:100%;
 background-color:black;
-margin-left:50%;
 }
 #project1photo4{
 position:absolute;
@@ -433,9 +449,11 @@ background-color:red;
 .contactMeForm{
 position:relative;
 font-family:"Helvetica";
+margin-left:auto;
+margin-right:auto;
+text-align:center;
 font-size:3em;
 color:#4099FF;
-margin-left:36%;
 }
 #contactForm{
 position:relative;
@@ -471,7 +489,23 @@ border:2px solid ##4099FF;
 height:60px;
 
 }
-
+@font-face {
+    font-family: 'Open Sans Bold'; /*a name to be used later*/
+    src: url('OpenSans-SemiBold.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Open Sans'; /*a name to be used later*/
+    src: url('OpenSans-Regular.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Open Sans L'; /*a name to be used later*/
+    src: url('OpenSans-Light.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Open Sans I'; /*a name to be used later*/
+    src: url('OpenSans-Italic.ttf'); /*URL to font*/
+}
+/*
 @media screen and (max-width: 830px)
 {
     .icons{
@@ -499,7 +533,6 @@ height:60px;
     max-width:150px;
     
     }
-    
 }
 @media screen and (max-width: 1060px) {
     .container { 
@@ -529,5 +562,73 @@ height:60px;
     
 
 }
+*/
+@media screen and (max-width: 768px)
+{
+    .icons{
+    position:absolute;
+    margin: 0 auto;
+    margin-top:10px;
+    }
+    .aboutTitle{
+    margin-top:70px;
+    }
+    .resumeButton{
+    margin-top:-150px;
+    }
+
+    .nameLogo{
+    margin-left:0px;
+    }
+    
+    .aboutSection{
+    }
+    
+    .aboutTitle{
+    margin-left:0%;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .icons{   
+    margin-top:50px;
+    margin-bottom:0px;
+    }
+    .header{
+        height:100px;
+    }
+    #work{
+    
+    }
+    #workTitle{
+    font-size:3em;
+    }
+    .nameLogo{
+    margin-left:0px;
+    margin-top:0px;
+    }
+    
+    .aboutSection{
+    }
+    
+    .aboutTitle{
+    margin-left:0%;
+    margin-top:100px;
+    font-size:1.5em;
+    text-align:center;
+    }
+    #androidDeveloper{
+    margin-left:0px;
+    }
+    .companyLogo{
+    width:100px;
+    height:25px;
+    right:0;
+    margin-right:-30px;
+    margin-top:90px;
+    }
+    
+}
+
 /* Tabled Portrait */
 
