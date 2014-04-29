@@ -388,21 +388,21 @@ position:absolute;
 left:0;
 width:26.67%;
 height:363px;
-background-color:red;
+background-color:green;
 }
 #project1photo2container{
 position:absolute;
 margin-left:38%;
 width:26.67%;
 height:363px;
-background-color:red;
+background-color:green;
 }
 #project1photo3container{
 position:absolute;
 right:0;
 width:26.67%;
 height:363px;
-background-color:red;
+background-color:green;
 }
 #project1photo1{
 position:absolute;
@@ -565,6 +565,7 @@ height:60px;
 */
 @media screen and (max-width: 768px)
 {
+    
     .icons{
     position:absolute;
     margin: 0 auto;
@@ -574,9 +575,24 @@ height:60px;
     margin-top:70px;
     }
     .resumeButton{
-    margin-top:-150px;
+        margin-top:-150px;
     }
-
+    #project1photo2container{
+        min-width:200px;
+    }
+    #project1photo1container{
+        min-width:200px;
+    }
+    #project1photo2{
+        background-color:black;
+        margin-top:363px;
+    }
+    #project1photo3container{
+        min-width:200px;
+    }
+    #project1photo3{
+    position:relative;
+    }
     .nameLogo{
     margin-left:0px;
     }
