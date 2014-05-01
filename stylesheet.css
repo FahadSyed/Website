@@ -406,8 +406,10 @@ background-color:green;
 }
 #project1photo1{
 position:absolute;
-width:100%;
-height:100%;
+width:26.67%;
+height:363px;
+margin-left:auto;
+margin-right:auto;
 /*background-image: url('project1photo1.png');
 background-size: contain;
 background-repeat: no-repeat;
@@ -416,15 +418,16 @@ background-color:black;
 }
 #project1photo2{
 position:absolute;
-width:100%;
-height:100%;
+margin-left:38%;
+width:26.67%;
+height:363px;
 background-color:black;
 }
 #project1photo3{
 right:0;
 position:absolute;
-width:100%;
-height:100%;
+width:26.67%;
+height:363px;
 background-color:black;
 }
 #project1photo4{
@@ -577,21 +580,33 @@ height:60px;
     .resumeButton{
         margin-top:-150px;
     }
-    #project1photo2container{
-        min-width:200px;
-    }
-    #project1photo1container{
-        min-width:200px;
-    }
-    #project1photo2{
-        background-color:black;
-        margin-top:363px;
-    }
-    #project1photo3container{
-        min-width:200px;
-    }
-    #project1photo3{
+    #project1photo1, #project1photo2, #project1photo3{
     position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    min-width:170px;
+    margin-top:3px;
+    }
+    
+    .sectionThree{
+    position:relative;
+    width:100%;
+    border-bottom:2px solid black;
+    padding:0;
+    top:0;
+    height:1650px;
+    }
+    .containerThree{
+    width:70%;
+    border-top:1px solid #4099FF;
+
+    margin-left:auto;
+    margin-right:auto;
+    height:320px;
+    }
+    .projectOnePhotos{
+    margin-top:200px;
+    
     }
     .nameLogo{
     margin-left:0px;
@@ -657,6 +672,11 @@ height:60px;
     .sectionThree{
     margin-top:320px;
     }
+    .projectOnePhotos{
+    margin-top:350px;
+    
+    }
+
     .containerThree{
    
     }
