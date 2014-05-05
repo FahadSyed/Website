@@ -35,10 +35,9 @@
                         <div class = "aboutTitle">Website Under Construction</div>
                        <!-- <div id = "personalPhoto"></div> -->
                         <!--<div id = "description">Thanks for dropping by!<br></br> I'm a University student who doesn't have time to wait for school to teach me the things I want to know :)<br></br> Check out some of my projects below.</div> -->
-                        <a href = "https://www.youtube.com/watch?v=2Z4m4lnjxkY"><div class = "resumeButton"><span id = "viewResumeText">View Resume</span></div></a>
+                        <a href = ""><div class = "resumeButton"><span id = "viewResumeText">View Resume</span></div></a>
                     </div>
             </div>
-          
         </div>
         <div class = "sectionTwo">
             <div class = "containerTwo">
@@ -71,14 +70,36 @@
                         <div id = "project1photo2"></div>
                         <div id = "project1photo3"></div>
                     </div>
-
-
+                </div>
+                 <div class = "projectTwo" >
+                    <p id = "project1Title">Android Phone Lock App</p>
+                    <a href = "https://github.com/FahadSyed/Tempura"><div class = "githubLinkP1"></div></a>
+                    <div id = "project1Description">
+                    I have very senstitive eyes, so I decided to make an android app that applies a overlayed screen filter that appears to "dim" the
+                    screen. When I found out that the app already exists, I pumped it up a notch.
+                    I made that very same filter completely non-transparent, and no one can click on events behiend it. Locking the phone.
+                    Once activated, the only way to remove the lock is to remove the battery and have the phone re-launch.....
+                    but ofcourse, the app launches on boot. 
+                    </div>
+                   
                 </div>
             </div>
         </div>
         <div class = "containerForm">
-            <div class = "contactMeForm">Contact Me</div>
+            <div class = "contactMeForm">Get in Touch!</div>
             <div class = "contactForm">
+            
+               <form action = "formphp.php" method="POST" style = "margin-top:20px; position:relative;">
+               
+                    <input class = "formFirstName" name="name" placeholder="Name">
+                    
+                    <input class = "formFirstName" name="email" type="email" placeholder="Your Email">     
+                    
+                    <textarea class = "formMessage"name="message" placeholder="Your message"></textarea>
+                    <input class="submitButton" name="submit" type="submit" value="Submit" > 
+                </form>
+
+            <!--
                 <form action="" method="POST" style = "margin-top:20px; position:relative;">
                     
                         <div class="row" >
@@ -106,8 +127,9 @@
                                  <input type="submit" class="submitButton"  /> 
                         </div>
                         
-                    </form>
+                    </form>-->
             </div>
         </div>
+        
 	</body>
 </html>
