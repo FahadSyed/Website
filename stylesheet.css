@@ -459,11 +459,11 @@ width:26.67%;
 margin-left:18.33%;
 height:363px;
 margin-top:200px;
-/*background-image: url('project1photo1.png');
-background-size: contain;
+background-image: url('project2photo1.png');
+background-size:100% 100%; 
+border: 2px solid black;
 background-repeat: no-repeat;
-background-position: center 0;*/
-background-color:black;
+background-position: center 0;
 
 }
 .projectTwoPhotos{
@@ -481,11 +481,11 @@ right:0;
 margin-right:18.33%;
 height:363px;
 margin-top:200px;
-/*background-image: url('project1photo1.png');
-background-size: contain;
+border: 2px solid black;
+background-image: url('project2photo2.png');
+background-size: cover;
 background-repeat: no-repeat;
-background-position: center 0;*/
-background-color:black;
+background-position: center 0;
 
 }
 .goto{
@@ -631,11 +631,12 @@ height:60px;
     .resumeButton{
         margin-top:-150px;
     }
-    #project1photo1, #project1photo2, #project1photo3{
+    #project1photo1, #project1photo2, #project1photo3, #project1photo4{
     position:relative;
     margin-left:auto;
     margin-right:auto;
     min-width:170px;
+    background-size:100% 100%;   
     margin-top:3px;
     }
     .projectTwoPhotos{
@@ -645,6 +646,8 @@ height:60px;
      position:relative;
     margin-left:auto;
     margin-right:auto;
+        background-size:100% 100%;   
+
     min-width:170px;
     margin-top:3px;
     
