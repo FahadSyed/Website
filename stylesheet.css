@@ -178,7 +178,7 @@ width:100%;
 border-bottom:2px solid black;
 padding:0;
 top:0;
-height:1450px;
+height:2000px;
 }
 .containerThree{
 width:70%;
@@ -332,6 +332,13 @@ margin-top:300px;
 width:100%;
 height:320px;
 }
+.projectThree{
+position:relative;
+max-width: 100%;
+margin-top:350px;
+width:100%;
+height:320px;
+}
 #projectsTitle{
 position:relative;
 margin-left:auto;
@@ -472,7 +479,36 @@ width:100%;
 height:363px;
 margin-left:auto;
 margin-right:auto;
-
+}
+.projectThreePhotos{
+position:relative;
+width:100%;
+height:363px;
+margin-top:-100px;
+margin-left:auto;
+margin-right:auto;
+}
+#project3photo1{
+left:0;
+position:absolute;
+width:40%;
+height:363px;
+border: 2px solid black;
+background-image: url('project3photo1.png');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center 0;
+}
+#project3photo2{
+right:0;
+position:absolute;
+width:40%;
+height:363px;
+border: 2px solid black;
+background-image: url('project3photo2.png');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center 0;
 }
 #project2photo2{
 position:absolute;
@@ -516,12 +552,17 @@ border-radius:3px;
 }
 .formFirstName{
 position:relative;
+margin-left:auto;
+margin-right:auto;
 border: 2px solid #4099FF;
 border-radius:2px;
-width:460px;
+width:450px;
 height:30px;
 }
 .formLastName{
+position:relative;
+margin-left:auto;
+margin-right:auto;
 width:450px;
 height:30px;
 }
@@ -533,11 +574,13 @@ width:930px;
 height:30px;
 }
 .formMessage{
-width:930px;
+border: 2px solid #4099FF;
+width:903px;
+margin-top:2px;
 height:50px;
 }
 .submitButton{
-width:930px;
+width:911px;
 border-radius:3px;
 border:2px solid ##4099FF;
 height:60px;
@@ -642,6 +685,9 @@ height:60px;
     .projectTwoPhotos{
     margin-top:300px;
     }
+    .projectThreePhotos{
+    margin-top:50px;
+    }
     #project2photo1, #project2photo2{
      position:relative;
     margin-left:auto;
@@ -652,10 +698,22 @@ height:60px;
     margin-top:3px;
     
     }
+    #project3photo1, #project3photo2{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+        background-size:100% 100%;   
+
+    min-width:300px;
+    margin-top:3px;
+    
+    }
     .projectTwo{
-    margin-top:1100px;
+    margin-top:1200px;
     
-    
+    }
+    .projectThree{
+    margin-top:1000px;
     }
     .sectionThree{
     position:relative;
@@ -663,7 +721,7 @@ height:60px;
     border-bottom:2px solid black;
     padding:0;
     top:0;
-    height:4000px;
+    height:4300px;
     }
     .containerThree{
     width:70%;
@@ -674,7 +732,7 @@ height:60px;
     height:320px;
     }
     .projectOnePhotos{
-    margin-top:200px;
+    margin-top:300px;
     
     }
     .nameLogo{
@@ -694,8 +752,14 @@ height:60px;
     margin-top:50px;
     margin-bottom:0px;
     }
+    .projectThreePhotos{
+    margin-top:170px;
+    }
     .header{
         height:100px;
+    }
+     .sectionThree{
+    height:4200px;
     }
     #work{
     
@@ -745,6 +809,9 @@ height:60px;
     }
     .projectTwo{
     margin-top:1200px;
+    }
+    .projectThree{
+    margin-top:1300px;
     }
     .projectOnePhotos{
     margin-top:350px;
