@@ -6,28 +6,39 @@
         <meta name="HandheldFriendly" content="true">
         
         <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-       <script src="javascript.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function (){
+                $("#workScroll").click(function (){
+                    $('html, body').animate({
+                        scrollTop: $(".sectionTwo").offset().top
+                    }, 500);
+                });
+                 $("#projectScroll").click(function (){
+                    $('html, body').animate({
+                        scrollTop: $(".containerThree").offset().top
+                    }, 500);
+                });
+                 $("#contactScroll").click(function (){
+                    $('html, body').animate({
+                        scrollTop: $(".containerForm").offset().top
+                    }, 500);
+                });
+            });
+        </script>
 		<title>Fahad Syed</title>
 	</head>
 	<body>
         <div class = "header" >
             <div class = "nameLogo">FAHAD.S</div>
             <!--<div id = "message">1A <del id = "oldProgram">Electrical </del>Computer Engineering , University of Waterloo</div> -->
-
-            <div class="icons">
-                <a href = "https://www.facebook.com/fahad.syed1">
-                    <div class = "facebookIcon"></div>
-                </a>
-                <a href = "">
-                    <div class = "twitterIcon"></div>
-                </a>
-                <a href = "https://github.com/fahadsyed">
-                    <div class = "githubIcon"></div>
-                </a>
-                <a href = "http://www.linkedin.com/profile/view?id=329437000&trk=nav_responsive_tab_profile_pic">
-                    <div class = "linkedinIcon"></div>
-                </a>
-            </div>
+            <ul class="nav">
+                <li><a href="#" id = "workScroll">Work </a></li>
+                <li><a href="https://github.com/fahadsyed" >GitHub </a></li>
+                <li><a href="#" id = "projectScroll">Projects </a></li>
+                <li><a href="#" id = "contactScroll">Contact</a></li>
+            </ul>
+            
         </div>
         <div class = "sectionOne">  
             <div class = "containerOne">
@@ -39,7 +50,7 @@
                     </div>
             </div>
         </div>
-        <div class = "sectionTwo">
+        <div class="sectionTwo">
             <div class = "containerTwo">
                 <p id = "workTitle">Work</p>
                 <p id = "androidDeveloper">Android Developer for <a href = "http://www.vitalhub.com/">VitalHub </a></p>
@@ -120,6 +131,21 @@
                     <input class="submitButton" name="submit" type="submit" value="Submit" > 
                 </form>
 
+            <div class="icons">
+            
+                <a href = "https://www.facebook.com/fahad.syed1">
+                    <div class = "facebookIcon"></div>
+                </a>
+                <a href = "">
+                    <div class = "twitterIcon"></div>
+                </a>
+                <a href = "https://github.com/fahadsyed">
+                    <div class = "githubIcon"></div>
+                </a>
+                <a href = "http://www.linkedin.com/profile/view?id=329437000&trk=nav_responsive_tab_profile_pic">
+                    <div class = "linkedinIcon"></div>
+                </a>
+            </div>
             <!--
                 <form action="" method="POST" style = "margin-top:20px; position:relative;">
                     
